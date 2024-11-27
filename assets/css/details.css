@@ -1,0 +1,129 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c6d6f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; 
+}
+
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+header h1 {
+    font-size: 36px;
+    color: #333333;
+    margin-top: 100px;
+}
+
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #ff6f61;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.back-button:hover {
+    background-color: #ff3d30;
+    cursor: pointer;
+}
+
+.card {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    margin-top: 20px; 
+}
+
+.card-header {
+    background-color: #00c853;
+    color: #ffffff;
+    padding: 20px;
+    position: relative;
+}
+
+.card-header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.card-header .type {
+    background-color: #388e3c;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.card-header .type + .type {
+    margin-left: 10px;
+}
+
+.card-header .number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 18px;
+}
+
+.card-header img {
+    width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-body h2 {
+    margin: 0;
+    font-size: 20px;
+    color: #333333;
+}
+
+.card-body p {
+    margin: 10px 0;
+    color: #666666;
+}
+
+.card-body .abilities {
+    margin-top: 20px;
+}
+
+.card-body .abilities span {
+    display: inline-block;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 5px 0;
+}
+
+.card-body .breeding {
+    margin-top: 20px;
+}
+
+.card-body .breeding span {
+    display: block;
+    margin: 5px 0;
+}
